@@ -1,4 +1,8 @@
+import streamlit as st
 import webbrowser
+
+st.title("🌐 Site Yönlendirme")
+
 
 print("""
 Site Yönlendirme
@@ -31,4 +35,5 @@ while True:
         webbrowser.open("https://www.youtube.com/@bariskaya1907")
     else:
         print("Geçersiz İşlem.")
+
 
